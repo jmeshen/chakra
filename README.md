@@ -1,0 +1,4 @@
+chakra
+======
+
+Visualizing chakras
