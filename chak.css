@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.chakdiv {
+  height: 100px;
+  width: 65%;
+  margin: 0 auto;
+  /*line-height: 100px;*/
+}
+.chaklab {
+  color: #FFFFFF;  
+}
+#root {
+  background-color: #FF0000;
+}
+#sacral {
+  background-color: #FF6A00;
+}
+#solar {
+  background-color: #A8FF00;
+}
+#heart {
+  background-color: #00FF33;
+}
+#throat {
+  background-color: #007AFF;
+}
+#eye {
+  background-color: #2200FF;
+}
+#crown {
+  background-color: #5D00C7;
+}
