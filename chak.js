@@ -17,15 +17,3 @@ $(document).ready(function(){
     $(this).parent().parent().find("#theaterinfo").append($("div#" + curId + "Desc").html());
   });
 });
-
-/*if ($(window).width() > 650) {
-  alert('greater than 650');
-}
-
-if window.width > 650px;
-$(this).animate({padding:"5px"}, 100);
-},
-function(){
-  $(this).animate({padding:"0px"}, 50);
-});
-*/
