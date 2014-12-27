@@ -1,7 +1,9 @@
 body {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
 }
-
+#subhed {
+  color: dimgrey;
+}
 h1, h2 {
   font-family: Philosopher;
 }
@@ -9,12 +11,14 @@ h1 {
   font-size: 2.5em;
 }
 #container {
-  width: 800px;
+  width: 80%;
+  max-width: 790px;
   margin: 0 auto;
 }
 #theater {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 5px 30px;
+  min-height: 316px;
 
 }
 .chakdiv {
@@ -25,17 +29,18 @@ h1 {
 	position: relative;
   float: left;
   /* padding will adjust the size of the circle */
-  margin: 15px; /* provides proper spacing */
+  margin: 0 -6px; /* provides proper spacing */
   border: 3px solid black;
 }
 .chaktext {
   margin: 0 0 40px 120px;
-  /*visibility: hidden; maintains flow*/
   display: none;
 }
 .chaklab {
   color: #000;
-  /*display: none;*/
+}
+#chakras {
+  margin: 20px 0;
 }
 #root {
   background-color: #EA4958;
@@ -59,7 +64,6 @@ h1 {
   background-color: #AF99FE;
 }
 .description {
-  /*display: none;*/
   position: relative;
   text-align: left;
 }
