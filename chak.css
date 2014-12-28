@@ -12,21 +12,23 @@ h1 {
 }
 #container {
   width: 80%;
-  max-width: 790px;
+  max-width: 725px;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 #theater {
-  background-color: rgba(255, 255, 255, 0.6);
+  /*background-color: rgba(255, 255, 255, 0.6);*/
   padding: 5px 30px;
   /*min-height: 316px;*/
+  display: inline-block;
 
 }
 .chakdiv {
-  height: 75px;
-  width: 75px;
+  height: 45px;
+  width: 45px;
   border-radius: 100px;
-  line-height: 45px;
-	position: relative;
+  /*line-height: 45px;
+	position: relative;*/
   float: left;
   /* padding will adjust the size of the circle */
   margin: 0 -6px; /* provides proper spacing */
@@ -40,7 +42,7 @@ h1 {
   color: #000;
 }
 #chakras {
-  margin: 20px 0;
+  display: inline-block;
 }
 #root {
   background-color: #EA4958;
