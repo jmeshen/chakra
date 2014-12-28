@@ -84,12 +84,12 @@ a {
 /*Mobile Phones Portrait*/
 @media only screen and (max-width: 600px) {
   #container {
-    width: 92%;
+    width: 95%;
   }
   .chakdiv {
     height: 30px;
     width: 30px;
-    margin: 0 3px;
+    margin: 0 -3px;
   }
 }
 
