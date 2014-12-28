@@ -69,3 +69,12 @@ h1 {
   position: relative;
   text-align: left;
 }
+footer {
+  color: #9D9999;
+  font-size: 0.8em;
+  padding: 0 0 10px 30px;
+}
+
+a {
+  text-decoration: none;
+}
